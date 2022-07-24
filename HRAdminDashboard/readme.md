@@ -18,3 +18,6 @@ Logged-Out Pages:
 1. Registration Page
 2. Login Page
 3. Forgot Password
+
+Performance of JsonPowerDB 
+Works Fine adds Employee data to DataBase but login feature is not yet added will be available soon
