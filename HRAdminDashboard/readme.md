@@ -46,9 +46,9 @@ Very easy just use this code in the last before the body closes -
 
 # Release History
 
-Beta 0.0.1
+Beta 0.0.1 (23/07/2022)
 
-# Release Notes
+# Release Notes 
 
 Added Employee detail form and all front end.
 
