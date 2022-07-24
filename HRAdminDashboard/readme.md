@@ -21,3 +21,19 @@ Logged-Out Pages:
 
 Performance of JsonPowerDB 
 # Works Fine adds Employee data to DataBase but login feature is not yet added will be available soon
+
+Ease of use of jpdb-commons.js
+
+Very easy just use this code in the last before the body closes -
+
+<script type='text/javascript' src="http://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+
+Release History
+
+# Beta 0.0.1
+
+Release Notes
+
+Added Employe detail form and all front end.
+Login/Register Feature yet to come
+
