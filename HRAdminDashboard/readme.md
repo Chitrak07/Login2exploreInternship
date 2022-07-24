@@ -86,5 +86,5 @@ Logged-Out Pages:
 
 # Project status
 
-Devloping Phase
+Developing Phase
 
