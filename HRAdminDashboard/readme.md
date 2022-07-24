@@ -1,3 +1,2 @@
 
-Title of the Project
-   ## HR Admin Dashboard
+   ### HR Admin Dashboard
