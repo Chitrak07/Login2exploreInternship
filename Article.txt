@@ -1,0 +1,29 @@
+                                                                      JsonPowerDB
+JsonPowerDB is a Database Server with Developer friendly REST API services. It's a High Performance, Light Weight, Ajax Enabled, Serverless, Simple to Use, Real-time Database.
+Easy and fast to develop database applications without using any server-side programming / scripting or without installing any kind of database.
+Whether it's a Dynamic Website or a Mobile App or some Data Analytics Portal, the development is real fun and fast. Nothing better than trying it yourself. What all you need is a basic understanding of HTML, CSS, Bootstrap, and Javascript.
+
+                      Serverless capability of JsonPowerDB
+# Serverless API - To send email, getting unique id and for maintaining session.
+Execute this command without any request.
+We can execute this command even by including the token in the header.
+   Dyname RDBMS support in JsonPwerDB using SET command
+         All Dynamic web applications.
+•	All Mobile applications that require backend database.
+•	Session Caching.
+•	Page Caching.
+•	Existing Database applications to improve their reporting / analytics performance.
+•	Best suited as backend Database for IoT.
+•	Live HTML templates / themes.
+•	Any software application that needs backend database.
+
+      JsonPowerSQL - A powerfull SQL using JSON
+# JsonPower Query - To retrieve data from database.
+Relate Expression Will retrieve column from another relation. Relate expression is an array which is in the format:
+
+                                         Javascript Library
+Collection of JavaScript functions to speed up the development.
+                                             Drive API
+# Drive API - To upload, download files in drive.
+If the following commands are not working in your instance
+
