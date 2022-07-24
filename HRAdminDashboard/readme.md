@@ -34,6 +34,10 @@ Logged-Out Pages:
 2. Login Page
 3. Forgot Password
 
+Examples of use
+
+Project status
+
 # Performance of JsonPowerDB 
 
  Works Fine adds Employee data to DataBase but login feature is not yet added will be available soon
@@ -54,6 +58,8 @@ Added Employee detail form and all front end.
 
 Login/Register Feature yet to come.
 
+
+# Examples of use
 
 Logged-In
 Pages:
@@ -78,4 +84,7 @@ Logged-Out Pages:
 3. Forgot Password ![image](https://user-images.githubusercontent.com/68528688/180655132-d9c79a78-4c76-4ce1-a57c-8ae77218fa7f.png)
 
 
+# Project status
+
+Devloping Phase
 
