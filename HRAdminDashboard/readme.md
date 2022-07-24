@@ -62,14 +62,20 @@ Pages:
 
 2. Profile Page ![image](https://user-images.githubusercontent.com/68528688/180655000-00bdd0af-33c9-4f48-b600-9d2250368663.png)
 
-3. Add Employee Page
-4. Change Password Page
-5. Logout Button
+3. Add Employee Page ![image](https://user-images.githubusercontent.com/68528688/180655014-fb6e248b-2895-4e11-84f1-dddd9864d9dc.png)
+
+4. Change Password Page ![image](https://user-images.githubusercontent.com/68528688/180655134-16ad9e19-6989-48f6-ba93-8fa374afdb08.png)
+5. Logout Button ![image](https://user-images.githubusercontent.com/68528688/180655110-90b850bf-c6a8-4962-acea-caf1534975fe.png)
+
 
 Logged-Out Pages:
 --------------------------
-1. Registration Page
-2. Login Page
-3. Forgot Password
+1. Registration Page ![image](https://user-images.githubusercontent.com/68528688/180655084-0f95eeb2-3dfc-425e-91d2-4997d60e904b.png)
+
+2. Login Page ![image](https://user-images.githubusercontent.com/68528688/180655102-c09f6bb6-ec24-4a9c-83bb-93c62a9c4bab.png)
+
+
+3. Forgot Password ![image](https://user-images.githubusercontent.com/68528688/180655132-d9c79a78-4c76-4ce1-a57c-8ae77218fa7f.png)
+
 
 
