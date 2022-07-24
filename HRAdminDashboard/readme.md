@@ -4,6 +4,21 @@
    #Brief Description of the project
    WebPage connected to JsonPowerDB with many features such as
    
+   Table of contents
+   
+   Title of the Project
+
+Brief Description of the project
+
+Performance of JsonPowerDB 
+
+Ease of use of jpdb-commons.js
+
+Release History 
+
+Release Notes 
+
+   
    Logged-In
 Pages:
 --------------------------
@@ -34,6 +49,9 @@ Release History
 
 Release Notes
 
-Added Employe detail form and all front end.
-Login/Register Feature yet to come
+Added Employee detail form and all front end.
+
+Login/Register Feature yet to come.
+
+
 
