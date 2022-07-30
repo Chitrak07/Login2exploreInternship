@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>HR Dashboard</title>
+
+		
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		
+		
+	
+		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
+        <script src="http://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+        <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        </head>
+		<body>
+			<section class= "navs">
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+					  <div class="container-fluid">
+						<div class="navbar-header">
+							  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							  </button>
+							  <a class="navbar-brand logo" href="#">
+								  
+								  HR Dashboard
+								  
+							  </a>
+						</div>
+                        <div class="text-right text-primary">
+							<h2 id="userID"></h1>
+						</div>
+						<script type="text/javascript">
+							$("#userID").html(localStorage.getItem('userID'));
+						</script>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="login.html">Login</a></li>
+						
+								
+							  </ul>
+						</div>
+					</div>
+				</nav>
+			</section>
+		</body>
+        <body>
+        <div class="container">
+            <div class='page-header text-center'>
+ 
+                <h3>   </h3>
+        </div>
+        <form id='empForm' method="post">
+            <div class='page-header text-center'>
+                <h3>Register User</h3>
+                </div>
+            <div class="form-group row ">
+                <label class="col-form-lable col-sm-3 text-center my-auto">Name:</label>
+                <div class="col-sm-9">
+                     <input type="text" placeholder="Username" id="name" class="form-control"name="name">
+                </div>
+             </div>
+          <div class="form-group row ">
+             <label class="col-form-lable col-sm-3 text-center my-auto">Email ID:</label>
+             <div class="col-sm-9">
+                  <input type="text" placeholder="Email" id="email" class="form-control"name="email" >
+             </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-form-lable col-sm-3 text-center m-auto">Phone:</label>
+            <div class="col-sm-9">
+                <input type="text" placeholder="Phone" id="phone" class="form-control" name="phone">
+            </div>
+       </div>
+        <div class="form-group row">
+             <label class="col-form-lable col-sm-3 text-center m-auto">Password:</label>
+             <div class="col-sm-9">
+                 <input type="password" placeholder="Password" id="pwd" class="form-control" name="pwd">
+             </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-form-lable col-sm-3 text-center m-auto">Retype Password:</label>
+            <div class="col-sm-9">
+                <input type="password" placeholder="Confirm Password" id="pwd2" class="form-control" name="pwd2">
+            </div>
+       </div>
+
+
+
+        <nav class=' text-center' style='border:none'>
+            <button type="button" class="btn btn-lg btn-primary" id="new" onclick="registerUser()">Submit</button>
+            <button type="button" class="btn btn-lg btn-primary" id="new" onclick="resetForm()">Reset</button>
+        </nav>
+
+
+
+
+  
+        </form>
+        </div>
+        </div>
+        </div>
+        
+        <script type='text/javascript' src="register.js"></script>
+        </body>
+        
+</html>

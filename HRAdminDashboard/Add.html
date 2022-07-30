@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>HR Dashboard</title>
+
+		
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		
+		
+	
+		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
+        <script src="http://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+        <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            myStatus = "in";
+        </script>
+        <script type="text/javascript" src="register.js"></script>
+        <script type="text/javascript">checksession();</script>
+
+        </head>
+		<body>
+			<section class= "navs">
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+					  <div class="container-fluid">
+						<div class="navbar-header">
+							  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							  </button>
+							  <a class="navbar-brand logo" href="#">
+								  
+								  HR Dashboard
+								  
+							  </a>
+						</div>
+                        <div class="text-right text-primary">
+							<h2 id="userID"></h1>
+						</div>
+						<script type="text/javascript">
+							$("#userID").html(localStorage.getItem('userID'));
+						</script>
+                        <div class="text-right text-primary">
+							<h2 id="userID"></h1>
+						</div>
+						<script type="text/javascript">
+							$("#userID").html(localStorage.getItem('userID'));
+						</script>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li ><a href="index.html">Home</a></li>
+								<li><a href="profile.html">Profile</a></li>
+								<li><a href="Add.html">Add Employee</a></li>
+								<li><a href="CP.html">Change Password</a></li>
+								<li><a href="index.html" onclick="deleteSession();" >Logout</a></li>
+							  </ul>
+						</div>
+					</div>
+				</nav>
+			</section>
+		</body>
+        <body>
+            <h3>  </h3>
+
+        <div class="container">
+            <h3>  </h3>
+            <div class=' text-center'>
+                <h3>Employee Form using JPDB API</h3>
+                
+                </div>
+            <div class=' text-center'>
+                <h3>Employee Form using JPDB API</h3>
+                
+                </div>
+        <form id='empForm' method="post">
+            <div class=' text-center'>
+                <h3>Employee Form using JPDB API</h3>
+                
+                </div>
+          <div class="form-group row ">
+             <label class="col-form-lable col-sm-3 text-center my-auto">Employee ID:</label>
+             <div class="col-sm-9">
+                  <input type="text" id="empid" class="form-control" onchange="getEmpFromEmpID()">
+             </div>
+          </div>
+        <div class="form-group row">
+             <label class="col-form-lable col-sm-3 text-center m-auto">Employee Name:</label>
+             <div class="col-sm-9">
+                 <input type="text" id="empname" class="form-control">
+             </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-form-lable col-sm-3 text-center m-auto">Basic Salary</label>
+            <div class="col-sm-9">
+                <input type="number" id="empsal" class="form-control"> 
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-form-lable col-sm-3 text-center m-auto">HRA</label>
+            <div class="col-sm-9">
+                <input type="number" id="hra" class="form-control"> 
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-form-lable col-sm-3 text-center m-auto">DA</label>
+            <div class="col-sm-9">
+                <input type="number" id="da" class="form-control"> 
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-form-lable col-sm-3 text-center m-auto">Deduction</label>
+            <div class="col-sm-9">
+                <input type="number" id="deduct" class="form-control"> 
+            </div>
+        </div>
+        </form>
+        </div>
+        <div>
+            <nav class=' text-center' style='border:none'>
+              <button type="button" class="btn btn-lg btn-primary" id="new" onclick="newForm()">New</button>
+              <button type="button" class="btn btn-lg btn-primary" id="save" onclick="saveData()" disabled>Save</button>
+              <button type="button" class="btn btn-lg btn-primary" id="edit" onclick="editData()">Edit</button>
+              <button type="button" class="btn btn-lg btn-primary" id="change" onclick="changeData()" disabled>Change</button>
+              <button type="button" class="btn btn-lg btn-primary" id="reset" onclick="resetForm()"disabled>Reset</button>
+            </nav>
+            <nav class='text-center' style='border:none'>
+              <button type="button" class="btn btn-lg btn-primary" id="first" onclick="getFirst()">First</button>
+              <button type="button" class="btn btn-lg btn-primary" id="prev" onclick="getPrev()" >Previous</button>
+              <button type="button" class="btn btn-lg btn-primary" id="next" onclick="getNext()"disabled>Next</button>
+              <button type="button" class="btn btn-lg btn-primary" id="last" onclick="getLast()">Last</button>
+            </nav>
+        </div>
+        </div>
+		
+        <script type='text/javascript' src="http://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+        <script type='text/javascript' src="index.js"></script>
+	</div>
+</body>
+      
+</html>
