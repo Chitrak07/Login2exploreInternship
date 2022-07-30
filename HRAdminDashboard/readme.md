@@ -49,8 +49,10 @@ Very easy just use this code in the last before the body closes -
 <script type='text/javascript' src="http://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
 
 # Release History
+Added Login/Logout Feature
+0.1.0 (30/07/2022)
 
-Beta 0.0.1 (23/07/2022)
+0.0.1 (23/07/2022)
 
 # Release Notes 
 
