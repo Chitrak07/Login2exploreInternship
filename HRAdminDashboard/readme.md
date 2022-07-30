@@ -64,11 +64,11 @@ Login/Register Feature yet to come.
 Logged-In
 Pages:
 --------------------------
-1. Home Page ![image](https://user-images.githubusercontent.com/68528688/180654977-88f51b21-6c4b-4cda-b43c-b89be1b6f66e.png)
+1. Home Page ![image](https://user-images.githubusercontent.com/68528688/181905268-268d973e-7001-4b55-a717-ef42d57879b8.png)
 
-2. Profile Page ![image](https://user-images.githubusercontent.com/68528688/180655000-00bdd0af-33c9-4f48-b600-9d2250368663.png)
 
-3. Add Employee Page ![image](https://user-images.githubusercontent.com/68528688/180655014-fb6e248b-2895-4e11-84f1-dddd9864d9dc.png)
+2. Profile Page ![image](https://user-images.githubusercontent.com/68528688/181905418-29a5640b-bd2f-46e9-a6a6-496da4f6b8e9.png)
+3. Add Employee Page ![image](https://user-images.githubusercontent.com/68528688/181905561-b3c26cca-9300-4e12-ac68-5e452a8c5ee1.png)
 
 4. Change Password Page ![image](https://user-images.githubusercontent.com/68528688/180655134-16ad9e19-6989-48f6-ba93-8fa374afdb08.png)
 5. Logout Button ![image](https://user-images.githubusercontent.com/68528688/180655110-90b850bf-c6a8-4962-acea-caf1534975fe.png)
@@ -76,7 +76,7 @@ Pages:
 
 Logged-Out Pages:
 --------------------------
-1. Registration Page ![image](https://user-images.githubusercontent.com/68528688/180655084-0f95eeb2-3dfc-425e-91d2-4997d60e904b.png)
+1. Registration Page ![image](https://user-images.githubusercontent.com/68528688/181905254-694dedd8-9a99-41fb-8447-f0eeef7a02ec.png)
 
 2. Login Page ![image](https://user-images.githubusercontent.com/68528688/180655102-c09f6bb6-ec24-4a9c-83bb-93c62a9c4bab.png)
 
