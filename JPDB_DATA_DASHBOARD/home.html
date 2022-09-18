@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+
+		
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		
+		<link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+  <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+	
+		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
+    <script src="http://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+   
+        </head>
+		<body>
+			<section class= "navs">
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+					  <div class="container-fluid">
+						<div class="navbar-header">
+							  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+
+							  </button>
+                              <a class="navbar-brand logo" href="#">
+								  
+                                JsonPower DB
+                                
+                            </a>
+                           
+						</div>
+            
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-left">
+                              <li><a href="home.html">Table</a></li>
+                                <li><a href="form.html">Form</a></li>
+                                <li><a href="#">Filter</a></li>  
+                              </ul>
+						</div>
+					</div>
+				</nav>
+			</section>
+		</body>
+    <meta name="viewport" content="width=device-width, initial-scale=3">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 240px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(74, 75, 74);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #dac5c5;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #100f0f;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 50px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  
+
+    <div>
+    <span class="text-center text-white"  id="token_no">90938715|-31949290688379017|90940932</a>
+    </div>
+  <a  >90938715|-31949290688379017|90940932</a>    
+  <a style="font-size: 12px;" >90938715|-31949290688379017|90940932</a>    
+      <a href="index.html" >Change Token Number</a>         
+      <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+  <a href="#about">Emloyee</a>
+
+</div>
+   
+</body>
+        <body>
+        <div class="container">
+            
+            <div class='page-header text-center'>
+                <h3>   </h3>
+                </div>
+        
+        
+   
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">Data Table</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#" id="db_name">Database</a></li>
+              <li class="breadcrumb-item active" id="rel_name">Relation</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+        <div id="popupForm" style="display: none;min-height:200px;background: WhiteSmoke;padding: 20px;border: 2px solid black;margin-right: 20%;margin-left:20% ;">
+                  <form class="form-horizontal" method="post" id="popFormID">
+
+                  
+                  </form>
+        </div>
+        <div class="card" id="body_id">
+              <div class="card-header">
+                <h3 class="card-title">DataTable with default features</h3>
+              </div>
+     
+              
+              <div class="card-body">
+                
+                
+                <table id="example1" class="table table-bordered table-striped">
+                      <thead id="header_idx"></thead>
+                      <tbody></tbody>
+                </table>
+              </div>
+              
+              
+      </div>
+    </div>
+
+  </div>
+       
+        <script src="dashboard.js"></script>
+
+        <script>
+          $(function () {
+        
+              var dataObject = {
+              columns: [{
+                title: "column 1"
+              }, {
+                title: "column 2"
+              }],
+              data: [
+                ["row 1", "row 1"],
+                ["row 2", "row 2"],
+              ]
+            };
+        
+            
+            $("#example1").DataTable({
+              "data": dataObject.data,
+              "columns": dataObject.columns,
+              "responsive": true, "lengthChange": false, "autoWidth": false,
+               
+              "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+            }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+            
+          });
+        </script>
+        
+        <script type="text/javascript" src="token_verification.js"></script>  
+        <script type="text/javascript" src="form.js"></script> 
+        <script type="text/javascript" src="home.js"></script>
+        
+        </body>
+        
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>HR Dashboard</title>
+
+		
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		
+		
+	
+		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
+        <script type='text/javascript' src="index.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
+		<script src="http://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+		<script type="text/javascript">
+			myStatus = "in";
+		</script>
+		
+       
+		
+        </head>
+		
+		<body>
+			
+
+			<section class= "navs">
+				
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+					  <div class="container-fluid">
+						<div class="navbar-header">
+							  <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+							  </button>
+							  <a class="navbar-brand logo " href="#">
+								  
+                                 JPDB Data Dashboard
+								  
+							  </a>
+						</div>
+					</div>
+				</nav>
+			</section>
+		</body>
+	<body>
+
+
+			  	<div class="item">
+			  		<div class="slider-1">
+			  			<div class="slider-inner">
+			  				<div class="container">
+			  					<div class="row">
+     
+			  						<div class="slider-inner-text">
+                                        <h1>  </h1>
+			  							<h1>JPDB Data Dashboard</h1>
+			   
+
+                                          <form id='tokenform' method="post">
+    
+                                          <div class="form-group row right ">
+                                            
+                                             <label class="col-form-lable col-sm-3 text-center my-auto">Welcome User </label>
+                                             <div class="col-sm-6">
+												<input type="text" class="form-control" id="token" placeholder="Enter your token number">
+                                             </div>
+                                         
+                                             
+                                          </div>
+                                          <label class=" text-center  ">Enter Your connection token to avail functionality</label>
+										  <input type="button" class="btn btn-info" id="submit" value="Submit" onclick="validateToken();">
+
+                                  <input type="button" class="btn btn-default float-right" id="reset" value="reset" onclick="resetForm();">
+
+			  						</div>	
+				  				</div>
+			  				</div>
+			  			</div>
+			  		</div>
+			  	</div>
+
+
+		</section>
+		<section id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copy-right-text text-center">
+							&copy;  <a > Shubham Vaish</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+<script src="dashboard.js"></script>
+
+<!-- CONNECTION TOKEN -->
+<script type="text/javascript" src="token_verification.js"></script>
+
+	</body>
+</html>
