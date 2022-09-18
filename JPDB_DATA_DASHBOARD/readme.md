@@ -46,7 +46,8 @@ Backend working
 ![image](https://user-images.githubusercontent.com/68528688/190889013-8cd41af2-8a50-4ce0-9a27-e744045f49bc.png)
 
 Demo
-[![Watch the video]](https://youtu.be/KWAIeqUiTPU)
+[![Watch the video](![image](https://user-images.githubusercontent.com/68528688/190889942-4b96a28d-fb94-4d30-84f0-cc610b0f8392.png)
+)](https://youtu.be/KWAIeqUiTPU)
 
 # Release History
 
