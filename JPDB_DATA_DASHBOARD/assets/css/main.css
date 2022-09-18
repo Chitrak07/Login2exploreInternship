@@ -1,0 +1,537 @@
+
+
+ * {outline: none !important;}
+
+/* --------------------------------------  navs menu bar ----------------------------------------------- */
+
+.logo
+{
+    font-family: 'Dosis', sans-serif;
+}
+.nav.navbar-nav 
+{
+    /* padding: 0px 20px; */
+}
+.navbar-default
+{
+    /*background-color: menu bas */
+    background-color: #c29128;
+}
+.navbar-default .navbar-header .logo
+{
+    font-size: 32px;
+    color: #fff;
+}
+.navbar-nav li 
+{
+    /* border-right: 1px solid #54aec2; */
+    padding: 7px 0px;
+}
+.navbar-default .navbar-nav li a 
+{
+    text-shadow: 1px 1px 0px #ac961c;
+    color: #fff;
+}
+.navbar-default .navbar-nav>.active
+{
+    /*background-color: rgba(5, 207, 252, 0.62);*/
+    background-color: rgba(165, 141, 34, 0.62);
+    border-top: 4px ridge rgb(182, 140, 24);
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus 
+{
+    color: #fff;
+}
+li:last-child 
+{
+    border-right: transparent;
+}
+.navbar-default .navbar-nav>li:hover, .navbar-default .navbar-nav>li:focus {
+    background-color: #bda124;
+    color: white;
+    border-bottom: 4px ridge rgb(192, 121, 28);
+}
+.navbar-fixed-top .navbar-collapse
+{
+    /* max-height: 415px; */
+}
+.container-fluid 
+{
+    margin-left: 20px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus
+{
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.active:hover 
+{
+    background-color: rgba(35, 128, 182, 0.62);
+    border-bottom: none;
+}
+
+
+
+/* -------------------------------------- 1.1 heading-slider---------------------------------------- */
+.slider-inner 
+{
+    /*background-color: rgba(21, 7, 7, 0.55);*/
+    background-color: rgba(51, 71, 90, 0.32);
+    width: 100%;
+    color: white;
+    height: 700px;
+}
+.slider-inner-text
+{
+    margin: 262px 0px;
+    width: 50%
+}
+.slider-1
+{
+    background: url(../img/slider1.jpg);
+    width: 100%;
+    background-size: cover;
+    vertical-align: middle;
+    background-position-x: 75%;
+    background-position-y: 5%;
+}
+
+.slider-inner h1 
+{
+    margin-bottom: 35px;
+    font-size: 70px;
+}
+.slider-inner-text p
+{
+    font-size: 23px;
+} 
+/*---------------------------------------------- 1.2 starting-text ----------------------------------*/
+
+section.starting-text 
+{
+    background-color: rgba(180, 190, 28, 0.82);
+    /*background: -webkit-linear-gradient(left top, #085A6C , #3E8B90);
+    background: -o-linear-gradient(bottom right, #085A6C , #3E8B90);
+    background: -moz-linear-gradient(bottom right, #085A6C , #3E8B90);
+    background: linear-gradient(to bottom right, #085A6C , #3E8B90); */
+    margin-top: -37px;
+}
+.welcome 
+{
+    padding: 48px 68px;
+    text-align: center;
+}
+.welcome-title 
+{
+    font-size: 50px;
+    padding-bottom: 15px;
+    /*color: #B0FFF6;*/
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px #af941d;
+}
+.welcome-txt 
+{
+    font-size: 18px;
+    color: #fff;
+    line-height: 35px;
+    margin-bottom: 26px;
+    padding-top: 26px;
+    letter-spacing: 1px;
+}
+.welcome-btn
+{
+    background-color: #fff;
+    margin-top: 20px;
+    color: #b49b2b;
+    border-radius: 0px;
+    font-size: 16px;
+    transition: all 0.3s ease-in;
+    padding: 13px 20px;
+    border: 2px solid #fff;
+}
+.welcome-btn:hover 
+{
+    color: white;
+    background-color: #b39121;
+}
+/* ----------------------------------- 1.3 reason for choise service bg------------------------------------ */
+
+.service-heading 
+{
+    padding: 20px 0px;
+    color: rgb(170, 133, 32);
+    font-size: 29px;
+}
+
+.service-img 
+{
+    opacity: 0.9;
+}
+
+.form-control {
+    height: 38px !important;
+}
+.hservice {
+   
+    background-color: rgba(240, 225, 185, 0.247);
+    border: 1px solid #e7dcca;
+    margin: 30px 0px;
+    padding-bottom: 30px;
+    transition: all 0.3s ease-in;
+}
+.hservice:hover 
+{
+    box-shadow: 0px 2px 3px 2px #e0cb94;
+}
+
+.hservice:hover .service-img 
+{
+    opacity: 1;
+}
+.service-description p 
+{
+    padding: 0px 10px;
+    line-height: 25px;
+}
+
+/* ========================================= 2. Service=========================================== */
+.service-title
+{
+    background: url(../img/s1.jpg);
+    background-size: cover;
+    vertical-align: middle;
+    background-position: center;
+    color: #F0FEFF;
+}
+.service-title .headline 
+{
+    font-size: 70px;
+    word-spacing: 10px;
+}
+.service-wrapper
+{
+
+    background-color: rgba(180, 178, 70, 0.62);
+    padding: 78px 0px;
+    margin-top: 65px;
+}
+.service
+{
+    padding: 40px 20px;
+    transition: all 0.5s ease 0s;
+}
+.featured-service-content 
+{
+    margin: 40px 0px;
+}
+.service .service-icon i
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 2px solid #a4a726;
+    background: #fff;
+    color: #6DBEC2;
+    padding-top: 38px;
+    transition: all 0.7s ease 0s;
+}
+.about-service h3 
+{
+    padding: 12px 0px;
+    color: rgb(155, 132, 30);
+}
+
+.about-service p 
+{
+    padding: 0px 10px;
+}
+.service:hover .service-icon i
+{
+    color: white;
+    background-color: #6DBEC2;
+}
+.service:hover .about-service h3
+{
+    color: #af801a;
+}
+.special-service
+{
+    margin-top: 50px;
+}
+.service-tab 
+{
+    margin-top: 50px;
+}
+
+.service-item 
+{
+    padding: 30px 0px;
+}
+.service-item img 
+{
+    margin-bottom: 30px;
+}
+.service-item h3 
+{
+    color: rgb(158, 146, 40);
+    margin-top: 0px;
+}
+.service-item p 
+{
+    line-height: 25px;
+    padding: 10px 0px;
+}
+.special-service h2
+{
+    background: url("../img/title-bg.png") repeat-x scroll 0 13px rgba(0, 0, 0, 0);
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.sub-headline 
+{
+    padding: 15px 0px 40px 0px;
+    font-size: 24px;
+}
+.headline 
+{
+    padding-top: 45px;
+    font-size: 45px;
+}
+.service-rm-btn
+{
+    background-color: transparent;
+    color: #b39123;
+    border-radius: 0px;
+    font-size: 15px;
+    transition: all 0.3s ease-in;
+    padding: 5px 12px;
+    margin: 4px 0px 0px 5px;
+    border-color: #a37b25;
+}
+.service-rm-btn:hover
+{
+    /* background-color: #46a1b4; */
+    background-color: rgb(170, 128, 49);
+    color: #fff;
+    border-color: #3A90CD;
+}
+
+
+
+
+/* ========================================= 3. Contact========================================== */
+.contact-title
+{
+    background: url(../img/mits.jpg);
+    background-size: cover;
+    vertical-align: middle;
+    color: #F0FEFF;
+    background-position: center;
+}
+.contact-title .headline
+{
+    font-size: 70px;
+    word-spacing: 10px;
+}
+.contact-wrapper
+{
+    background-color: rgba(45, 53, 56, 0.71);
+    padding: 78px 0px;
+    margin-top: 65px;
+}
+.contact-content
+{
+    margin-top: 100px;
+}
+#map-canvas 
+{
+    width: 100%;
+    height: 460px;
+}
+.quick-contact i 
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #6DBEC2;
+    color: white;
+    padding-top: 12px;
+    padding-left: 14px;
+    font-size: 25px;
+}
+.quick-contact span 
+{
+    padding-left: 10px;
+    font-size: 18px;
+}
+.quick-contact span 
+{
+    color: rgb(73, 77, 123);
+}
+.quick-contact {
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+.msg-form
+{
+    padding: 20px 16px;
+}
+.msg-form .input-group
+{
+    display: inline-table;
+    padding: 20px 0px;
+}
+/*   symptom ai   */
+.sym-title
+{
+    background: url(../img/sym.jpeg);
+    background-size: cover;
+    vertical-align: middle;
+    background-position: center;
+    color: #F0FEFF;
+}
+.sym-title .headline 
+{
+    font-size: 70px;
+    word-spacing: 10px;
+}
+.sym-wrapper
+{
+
+    background-color: rgba(180, 178, 70, 0.62);
+    padding: 78px 0px;
+    margin-top: 65px;
+}
+.sym
+{
+    padding: 40px 20px;
+    transition: all 0.5s ease 0s;
+}
+.featured-sym-content 
+{
+    margin: 40px 0px;
+}
+.sym .sym-icon i
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 2px solid #a4a726;
+    background: #fff;
+    color: #6DBEC2;
+    padding-top: 38px;
+    transition: all 0.7s ease 0s;
+}
+.about-sym h3 
+{
+    padding: 12px 0px;
+    color: rgb(155, 132, 30);
+}
+
+.about-sym p 
+{
+    padding: 0px 10px;
+}
+.sym:hover .sym-icon i
+{
+    color: white;
+    background-color: #6DBEC2;
+}
+.sym:hover .about-sym h3
+{
+    color: #af801a;
+}
+.special-sym
+{
+    margin-top: 50px;
+}
+.sym-tab 
+{
+    margin-top: 50px;
+}
+
+.sym-item 
+{
+    padding: 30px 0px;
+}
+.sym-item img 
+{
+    margin-bottom: 30px;
+}
+.sym-item h3 
+{
+    color: rgb(158, 146, 40);
+    margin-top: 0px;
+}
+.sym-item p 
+{
+    line-height: 25px;
+    padding: 10px 0px;
+}
+.s=ym-service h2
+{
+   
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.sub-headline 
+{
+    padding: 15px 0px 40px 0px;
+    font-size: 24px;
+}
+.headline 
+{
+    padding-top: 45px;
+    font-size: 45px;
+}
+.sym-rm-btn
+{
+    background-color: transparent;
+    color: #b39123;
+    border-radius: 0px;
+    font-size: 15px;
+    transition: all 0.3s ease-in;
+    padding: 5px 12px;
+    margin: 4px 0px 0px 5px;
+    border-color: #a37b25;
+}
+.sym-rm-btn:hover
+{
+    
+    background-color: rgb(170, 128, 49);
+    color: #fff;
+    border-color: #3A90CD;
+}
+
+/* ============================================Footer=========================================== */
+
+#footer
+{
+    /*background-color: #085A6C;*/
+    background-color: #c49c2d;
+    /*background: -webkit-linear-gradient(left top, #085A6C , #3E8B90);
+    background: -o-linear-gradient(bottom right, #085A6C , #3E8B90);
+    background: -moz-linear-gradient(bottom right, #085A6C , #3E8B90);
+    background: linear-gradient(to bottom right, #085A6C , #3E8B90); */
+    padding: 25px 0px;
+}
+.copy-right-text
+{
+    color: #fff;
+    font-size: 13px;
+    padding-top: 25px;
+}
+
+.copy-right-text a {
+    color: #AFEEEE;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.copy-right-text a:hover {
+    color: #1a32b8;
+}
+
+
